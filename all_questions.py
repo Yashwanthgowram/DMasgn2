@@ -103,18 +103,18 @@ def question3():
     answer = {}
 
     # float
-    answer["(a) Gini, overall"] = 0.
+    answer["(a) Gini, overall"] = 0.5
 
     # float
     answer["(b) Gini, ID"] = 0.0
-    answer["(c) Gini, Gender"] = 0.
-    answer["(d) Gini, Car type"] = 0.
-    answer["(e) Gini, Shirt type"] = 0.
+    answer["(c) Gini, Gender"] = 0.48
+    answer["(d) Gini, Car type"] = 0.1625
+    answer["(e) Gini, Shirt type"] = 0.491
 
-    answer["(f) attr for splitting"] = ""
+    answer["(f) attr for splitting"] = "car type"
 
     # Explanatory text string
-    answer["(f) explain choice"] = ""
+    answer["(f) explain choice"] = "The car type is selected for splitting after the root node due to having the least Gini index"
 
     return answer
 
@@ -188,14 +188,14 @@ def question5():
     # Read appropriate section of book chapter 3
 
     # string: one of 'Model 1' or 'Model 2'
-    explain["a"] = ""
-    explain["a explain"] = ""
+    explain["a"] = "Model-2"
+    explain["a explain"] = "Model 2 is selected because it is a pruned version, reducing the chances of overfitting and leading to better performances on unseen data"
 
     # string: one of 'Model 1' or 'Model 2'
-    explain["b"] = ""
-    explain["b explain"] = ""
+    explain["b"] = "Model-1"
+    explain["b explain"] = "Even though Model 1 performed better on the combined dataset (A + B), selecting Model 2 is advisable for classification tasks because of its superior generalization capabilities. Notably, in real-world applications, Model 2 is more likely to excel in unknown situations and is less likely to overfit to the training data"
 
-    explain["c similarity"] = ""
+    explain["c similarity"] = "Regularization"
     explain["c similarity explain"] = ""
 
     explain["c difference"] = ""
