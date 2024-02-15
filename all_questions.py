@@ -196,10 +196,10 @@ def question5():
     explain["b explain"] = "Even though Model 1 performed better on the combined dataset (A + B), selecting Model 2 is advisable for classification tasks because of its superior generalization capabilities. Notably, in real-world applications, Model 2 is more likely to excel in unknown situations and is less likely to overfit to the training data"
 
     explain["c similarity"] = "Regularization"
-    explain["c similarity explain"] = ""
+    explain["c similarity explain"] = "Their joint aim is to contribute to model selection and avoid overfitting by integrating model complexity into the loss function"
 
-    explain["c difference"] = ""
-    explain["c difference explain"] = ""
+    explain["c difference"] = "Criterion"
+    explain["c difference explain"] = "One key distinction is seen in how they calculate model complexity, particularly in the context of decision trees."
 
     return explain
 
