@@ -259,7 +259,7 @@ def question7():
     answer["c, which attrib"] = "ID"
 
     # answer is a float
-    answer["d, gain ratio, ID"] = "undefined"
+    answer["d, gain ratio, ID"] = 'undefined'
     answer["e, gain ratio, Handedness"] = 0.561
 
     # string: one of 'ID' or 'Handedness' based on gain ratio
