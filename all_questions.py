@@ -23,40 +23,40 @@ def question1():
     level2_left = {}
     level2_right = {}
 
-    level1["smoking"] = 1 # 0.72
-    level1["smoking_info_gain"] = 0.2781
+    level1["smoking"] = 1.0
+    level1["smoking_info_gain"] = 0.2780
 
-    level1["cough"] = -1 # 0.97
-    level1["cough_info_gain"] = 0.0349
+    level1["cough"] = -1.0
+    level1["cough_info_gain"] = 0.0348
 
-    level1["radon"] = -1 # 0.76
-    level1["radon_info_gain"] = 0.2365
+    level1["radon"] = -1.0
+    level1["radon_info_gain"] = 0.2364
 
-    level1["weight_loss"] = -1 # 0.97
-    level1["weight_loss_info_gain"] = 0.029
+    level1["weight_loss"] = -1.0
+    level1["weight_loss_info_gain"] = 0.0291
 
-    level2_left["smoking"] = -1
-    level2_left["smoking_info_gain"] = -1
-    level2_right["smoking"] = -1
-    level2_right["smoking_info_gain"] = -1
+    level2_left["smoking"] = -1.0
+    level2_left["smoking_info_gain"] = 0.0
+    level2_right["smoking"] = -1.0
+    level2_right["smoking_info_gain"] = 0.0
 
-    level2_left["radon"] = 1
-    level2_left["radon_info_gain"] = 0.7219
+    level2_left["radon"] = -1.0
+    level2_left["radon_info_gain"] = 0.729
 
-    level2_left["cough"] = -1
-    level2_left["cough_info_gain"] = 0.3219
+    level2_left["cough"] = -1.0
+    level2_left["cough_info_gain"] = 0.7219
 
-    level2_left["weight_loss"] = -1
+    level2_left["weight_loss"] = -1.0
     level2_left["weight_loss_info_gain"] = 0.171
 
-    level2_right["radon"] = 1
+    level2_right["radon"] = 1.0
     level2_right["radon_info_gain"] = 0.7219
 
-    level2_right["cough"] = -1
+    level2_right["cough"] = -1.0
     level2_right["cough_info_gain"] = 0.3219
 
-    level2_right["weight_loss"] = -1
-    level2_right["weight_loss_info_gain"] = 0.171
+    level2_right["weight_loss"] = -1.0
+    level2_right["weight_loss_info_gain"] = 0.1711
 
     answer["level1"] = level1
     answer["level2_left"] = level2_left
