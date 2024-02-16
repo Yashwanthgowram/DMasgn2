@@ -166,43 +166,43 @@ def question4():
     answer["a"] = ["binary", "qualitative", "nominal"]
 
     # Explain if there is more than one interpretation. Repeat for the other questions. At least five words that form a sentence.
-    answer["a: explain"] = "Theres is no inherent order within AM and PM catogories"
+    answer["a: explain"] = "Just two categories, AM or PM, with no order."
 
     answer["b"] = ["continuous", "quantitative", "ratio"]
-    answer["b: explain"] = "Brightness can vary infinitely and has a meaningful zero point."
+    answer["b: explain"] = "Continuous, because brightness can vary over a continuous range."
 
-    answer["c"] = ["continuous", "qualitative", "ordinal"]
-    answer["c: explain"] = ""
+    answer["c"] = ["discrete", "qualitative", "ordinal"]
+    answer["c: explain"] = "People's judgments of brightness are categorized into discrete levels (e.g., very bright, bright, dim)"
 
     answer["d"] = ["Continuous", "quantitative", "ratio"]
     answer["d: explain"] = "Angle measurement is interval rather than ratio since it lacks a genuine zero, even if 0 and 360 degrees indicate the same place."
 
-    answer["e"] = ['discrete', 'qualitative', 'nominal']
-    answer["e: explain"] = "hese awards don't measure the amount that separates the three main categories, which are naturally arranged according to achievement level."
+    answer["e"] = ["discrete", "qualitative", "ordinal"]
+    answer["e: explain"] = "These awards don't measure the amount that separates the three main categories, which are naturally arranged according to achievement level."
 
-    answer["f"] = ['continuous', 'quantitative', 'ratio']
+    answer["f"] = ["continuous", "quantitative", "ratio"]
     answer["f: explain"] = "Height can vary over a continuous range."
 
-    answer["g"] = ['discrete', 'quantitative', 'ratio']
-    answer["g: explain"] = ""
+    answer["g"] = ["discrete", "quantitative", "ratio"]
+    answer["g: explain"] = "The number of patients is a whole number count with no meaningful fractions."
 
-    answer["h"] = ['discrete', 'qualitative', 'nominal']
-    answer["h: explain"] = ""
+    answer["h"] = ["discrete", "qualitative", "nominal"]
+    answer["h: explain"] = "ISBN numbers are unique identifiers for books and do not have a quantitative value or order."
 
-    answer["i"] = ['discrete', 'qualitative', 'nominal']
-    answer["i: explain"] = ""
+    answer["i"] = ["discrete", "qualitative", "ordinal"]
+    answer["i: explain"] = "These categories are not strictly numerically measurable, but they have a natural order based on the quantity of light that may travel through."
 
-    answer["j"] = ['discrete', 'qualitative', 'ordinal']
-    answer["j: explain"] = ""
+    answer["j"] = ["discrete","qualitative", "ordinal"]
+    answer["j: explain"] = "Military ranks have a clear hierarchical order but do not represent a quantitative measurement."
 
-    answer["k"] = ['continuous', 'quantitative', 'ratio']
-    answer["k: explain"] = ""
+    answer["k"] = ["continuous", "quantitative", "ratio"]
+    answer["k: explain"] = "Distance has a real zero point at its center and can be measured on a continuous scale, ratio calculations may be made using it."
 
-    answer["l"] = ['continuous', 'quantitative', 'ratio']
-    answer["l: explain"] = ""
+    answer["l"] = ["continuous", "quantitative", "ratio"]
+    answer["l: explain"] = "Density can vary over a continuous range, and allows for the comparison of ratios."
 
-    answer["m"] = ['discrete', 'qualitative', 'nominal']
-    answer["m: explain"] = ""
+    answer["m"] = ["discrete", "quantitative", "nominal"]
+    answer["m: explain"] = "Coat check numbers are used for identification and do not have a quantitative value or order."
 
     return answer
 
