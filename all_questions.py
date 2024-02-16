@@ -175,10 +175,10 @@ def question4():
     answer["c: explain"] = ""
 
     answer["d"] = ["Continuous", "quantitative", "ratio"]
-    answer["d: explain"] = ""
+    answer["d: explain"] = "Angle measurement is interval rather than ratio since it lacks a genuine zero, even if 0 and 360 degrees indicate the same place."
 
     answer["e"] = ['discrete', 'qualitative', 'nominal']
-    answer["e: explain"] = ""
+    answer["e: explain"] = "hese awards don't measure the amount that separates the three main categories, which are naturally arranged according to achievement level."
 
     answer["f"] = ['continuous', 'quantitative', 'ratio']
     answer["f: explain"] = ""
