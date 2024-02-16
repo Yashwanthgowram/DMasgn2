@@ -181,7 +181,7 @@ def question4():
     answer["e: explain"] = "hese awards don't measure the amount that separates the three main categories, which are naturally arranged according to achievement level."
 
     answer["f"] = ['continuous', 'quantitative', 'ratio']
-    answer["f: explain"] = ""
+    answer["f: explain"] = "Height can vary over a continuous range."
 
     answer["g"] = ['discrete', 'quantitative', 'ratio']
     answer["g: explain"] = ""
